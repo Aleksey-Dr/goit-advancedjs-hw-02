@@ -3,15 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="images/svg+xml" href="/goit-advancedjs-hw-02/assets/clock-history-70ec7064.svg">
     <title>Countdown timer</title>
     
-    <script type="module" crossorigin src="/goit-advancedjs-hw-02/assets/modulepreload-polyfill-ec808ebb.js"></script>
+    
+    <script type="module" crossorigin src="/goit-advancedjs-hw-02/commonHelpers2.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-02/assets/modulepreload-polyfill-ec808ebb.js">
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-02/assets/vendor-651d7991.js">
+    <link rel="stylesheet" href="/goit-advancedjs-hw-02/assets/vendor-80d0dc0f.css">
+    <link rel="stylesheet" href="/goit-advancedjs-hw-02/assets/02-timer-dcb6dee0.css">
     <link rel="stylesheet" href="/goit-advancedjs-hw-02/assets/common-24e32714.css">
   </head>
   <body>
     <p><a href="index.html">Go back</a></p>
 
-    <input type="text" id="datetime-picker" />
+    <div class="wrapper">
+      <input type="text" id="datetime-picker" />
     <button type="button" data-start>Start</button>
 
     <div class="timer">
@@ -33,6 +40,8 @@
       </div>
     </div>
 
+    </div>
+    
     
   </body>
 </html>
