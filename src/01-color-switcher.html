@@ -3,14 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="images/svg+xml" href="./img/colors.svg">
     <title>Color switcher</title>
     <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/color-switcher.css" />
   </head>
   <body>
     <p><a href="index.html">Go back</a></p>
 
-    <button type="button" data-start>Start</button>
-    <button type="button" data-stop>Stop</button>
+    <div class="wrapper">
+      <button type="button" data-start class="btn green">Start</button>
+      <button type="button" data-stop class="btn red">Stop</button>
+    </div>
 
     <script src="js/01-color-switcher.js" type="module"></script>
   </body>
