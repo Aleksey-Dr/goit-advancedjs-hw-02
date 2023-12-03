@@ -1,3 +1,14 @@
+.back {
+    width: 60px;
+    height: 30px;
+
+    background-color: white;
+
+    border-radius: 7px;
+
+    text-align: center;
+}
+
 .wrapper {
     width: 280px;
 
